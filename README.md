@@ -55,7 +55,7 @@ Certifique-se de que os três arquivos principais estão na mesma pasta:
 
 Basta abrir o arquivo `index.html` diretamente no navegador com **duplo clique**. Nenhum servidor, extensão ou configuração adicional é necessária.
 
-Neste modo, todas as operações (cadastrar, editar, apagar livros e visualizar gráficos) funcionam normalmente utilizando o `localStorage` do navegador como armazenamento temporário.
+Neste modo, todas as operações (cadastrar, visualizar, editar, apagar livros e visualizar gráficos) funcionam normalmente utilizando o `localStorage` do navegador como armazenamento temporário.
 
 ### Modo online (com backend)
 
