@@ -44,7 +44,7 @@ function mostrarAvisoModo(modoOffline) {
 }
 
 /* =========================================================
-   ARMAZENAMENTO LOCAL (usado quando o backend está offline)
+   ARMAZENAMENTO LOCAL (usado quando o backend está off - usa dados locais)
    ========================================================= */
 
 function obterLivrosLocal() {
@@ -133,7 +133,6 @@ function calcularEstatisticasMensalLocal(lista) {
     const contagemPorMes = {};
 
     concluidos.forEach(function (livro) {
-        // espera data no formato YYYY-MM-DD
         const partes = String(livro.data_fim).split('-');
         if (partes.length < 2) return;
 
